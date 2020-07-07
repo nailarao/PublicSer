@@ -48,7 +48,6 @@ public class LoginForm extends AppCompatActivity {
 
                         } else {
                             Log.e("test", "user register and credentials matched");
-
                             Intent int1 = new Intent(LoginForm.this, MainActivity.class);
                             startActivity(int1);
                         }

@@ -21,12 +21,12 @@ public class RegistrationForm extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration_form);
-        first_name=(EditText)findViewById(R.id.first_name);
-        last_name=(EditText)findViewById(R.id.last_name);
-        email = (EditText)findViewById(R.id.reg_email);
-        contact = (EditText)findViewById(R.id.reg_contact);
-        cnic = (EditText)findViewById(R.id.cnic);
-        password= (EditText)findViewById(R.id.reg_password);
+        first_name = (EditText) findViewById(R.id.first_name);
+        last_name = (EditText) findViewById(R.id.last_name);
+        email = (EditText) findViewById(R.id.reg_email);
+        contact = (EditText) findViewById(R.id.reg_contact);
+        cnic = (EditText) findViewById(R.id.cnic);
+        password = (EditText) findViewById(R.id.reg_password);
         conform_password = (EditText) findViewById(R.id.reg_conpassword);
         button = (Button) findViewById(R.id.btn);
         button.setOnClickListener(new View.OnClickListener() {
@@ -35,12 +35,16 @@ public class RegistrationForm extends AppCompatActivity {
                 User user = new User();
                 user.setEmail(email.getText().toString());
                 user.setPassword(password.getText().toString());
+                user.setFirst_name(first_name.getText().toString());
+                user.setLast_name(last_name.getText().toString());
+                user.setContact(contact.getText().toString());
+                user.setConform_password(conform_password.getText().toString());
+                user.setCnic(cnic.getText().toString());
                 UserRepository repository = new UserRepository(RegistrationForm.this);
-                repository.insertTask(first_name.getText().toString(),last_name.getText().toString(),email.getText().toString(),contact.getText().toString(),cnic.getText().toString(),password.getText().toString(),conform_password.getText().toString());
+                repository.insertTask(user);
 
-             Intent intent = new Intent(RegistrationForm.this, LoginForm.class);
-            startActivity(intent);
-
+                Intent intent = new Intent(RegistrationForm.this, LoginForm.class);
+                startActivity(intent);
             }
         });
     }
