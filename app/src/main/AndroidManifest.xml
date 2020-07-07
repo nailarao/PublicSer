@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pser">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".marriagecer_apply"></activity>
+        <activity android:name=".cover_page" />
+        <activity
+            android:name=".deathcer_apply"
+            android:label="Apply Form" />
+        <activity
+            android:name=".domicile_apply"
+            android:label="Apply Form" />
+        <activity
+            android:name=".cnic_apply"
+            android:label="Apply Form" />
+        <activity
+            android:name=".birthcer_apply"
+            android:label="Apply Form" />
+        <activity
+            android:name=".utility_ser"
+            android:label="Instructions:"
+            android:theme="@style/ThemeUtility_Services" />
+        <activity
+            android:name=".tokentax"
+            android:label="Instructions:"
+            android:theme="@style/ThemeToken_Tax" />
+        <activity
+            android:name=".trafficfine"
+            android:label="Instructions:"
+            android:theme="@style/ThemeTraffic_Fine_Collection" />
+        <activity
+            android:name=".vehicle_ownership"
+            android:label="Instructions:"
+            android:theme="@style/ThemeVehicle_Registration" />
+        <activity
+            android:name=".vehicle_registration"
+            android:label="Instructions:"
+            android:theme="@style/ThemeVehicle_Registration" />
+        <activity
+            android:name=".driving_licence"
+            android:label="Instructions:"
+            android:theme="@style/ThemeDriving_Licence" />
+        <activity
+            android:name=".chartr_cer"
+            android:label="Instructions:"
+            android:theme="@style/ThemeCharacter_Certificate" />
+        <activity
+            android:name=".marriage_cer"
+            android:label="Instructions:"
+            android:theme="@style/ThemeMarriage_Certificate" />
+        <activity
+            android:name=".police"
+            android:label="Instructions:"
+            android:theme="@style/ThemePolice" />
+        <activity
+            android:name=".divorce_cer"
+            android:label="Instructions:"
+            android:theme="@style/ThemeDivorce_Certificate" />
+        <activity
+            android:name=".death_cer"
+            android:label="Instructions:"
+            android:theme="@style/ThemeDeath_Certificate" />
+        <activity
+            android:name=".birth_cer"
+            android:label="Instructions:"
+            android:theme="@style/ThemeBirth_Certificate" />
+        <activity
+            android:name=".domicl_cer"
+            android:label="Instructions:"
+            android:theme="@style/ThemeDomicile_Certificate" />
+        <activity
+            android:name=".cnic"
+            android:label="Instructions:"
+            android:theme="@style/ThemeCNIC" />
+        <activity android:name=".RegistrationForm" />
+        <activity android:name=".LoginForm">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

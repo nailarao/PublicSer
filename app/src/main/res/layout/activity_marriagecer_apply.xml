@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".marriagecer_apply">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/white">
+
+            <EditText
+                android:id="@+id/husband_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/husband_name"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/white"
+            >
+
+            <EditText
+                android:id="@+id/wife_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/wife_name"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/white"
+            >
+
+            <EditText
+                android:id="@+id/husband_cnic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/husband_cnic"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/white"
+            >
+
+            <EditText
+                android:id="@+id/wife_cnic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/wife_cnic"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/white"
+            >
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contact_number"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/white"
+            >
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/city_name"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/white"
+            >
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/white">
+
+            <EditText
+                android:id="@+id/district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/distt_name"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:textColor="#ffffff"
+                android:textSize="15sp">
+
+            </TextView>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp">
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/female"
+                android:textColor="#ffffff"
+                android:textSize="15sp">
+            </RadioButton>
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/marriage_apply"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded"
+            android:text="@string/cnic_submit"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="523dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

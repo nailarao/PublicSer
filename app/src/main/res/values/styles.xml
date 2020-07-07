@@ -1,0 +1,94 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ThemeCNIC" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#FF3378</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">#C4FA03</item>
+    </style>
+
+    <style name="ThemeDomicile_Certificate" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+
+    <style name="ThemeBirth_Certificate" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/Orange</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/light_seagreen</item>
+    </style>
+
+    <style name="ThemeDeath_Certificate" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/lime</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/lime</item>
+    </style>
+
+    <style name="ThemeMarriage_Certificate" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/dark_pink</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/light_seagreen</item>
+    </style>
+
+
+    <style name="ThemeDivorce_Certificate" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/sky_blue</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/sky_blue</item>
+    </style>
+
+    <style name="ThemePolice" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/yellow_dark</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/light_seagreen</item>
+    </style>
+
+    <style name="ThemeCharacter_Certificate" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/darkviolet</item>
+    </style>
+
+    <style name="ThemeDriving_Licence" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/lime_dark</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/darkviolet</item>
+    </style>
+
+    <style name="ThemeVehicle_Registration" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/yellow_dark</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/yellow_dark</item>
+    </style>
+
+    <style name="ThemeVehicle_Ownership" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+
+    <style name="ThemeTraffic_Fine_Collection" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/sky_blue</item>
+        <item name="colorPrimaryDark">#E606ED</item>
+        <item name="colorAccent">@color/sky_blue</item>
+    </style>
+
+    <style name="ThemeToken_Tax" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/pink</item>
+    </style>
+
+    <style name="ThemeUtility_Services" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/yellow_dark</item>
+        <item name="colorPrimaryDark">@color/darkviolet</item>
+        <item name="colorAccent">@color/lime</item>
+    </style>
+
+</resources>

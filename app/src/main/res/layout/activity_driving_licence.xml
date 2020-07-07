@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doc_bg"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".driving_licence">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drive_instructions"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/drive_pg"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+
+        <ImageView
+            android:layout_width="331dp"
+            android:layout_height="162dp"
+            android:background="@drawable/drive_doc"
+            android:padding="30dp">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/drivelic_apply"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_rounded"
+            android:text="@string/apply_form"
+            android:textColor="#ffffff"
+            android:textStyle="bold">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</ScrollView>

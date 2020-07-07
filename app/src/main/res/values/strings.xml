@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">PUBLIC SERVICES</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="registration">Registration</string>
+    <string name="login">Login</string>
+    <string name="token_tax">Token Tax</string>
+    <string name="utility_services">Utility Services</string>
+    <string name="birth_certificate">Birth Certificate</string>
+    <string name="domicile_certificate">Domicile Certificate</string>
+    <string name="death_certificate">Death Certificate</string>
+    <string name="marriage_certificate">Marriage Certificate</string>
+    <string name="police">Police</string>
+    <string name="divorce_certificate">Divorce Certificate</string>
+    <string name="character_certificate">Character Certificate</string>
+    <string name="driving_licence">Driving Licence</string>
+    <string name="Vehicle_Registration">Vehicle Registration</string>
+    <string name="vehicle_registration">"Vehicle Registration "</string>
+    <string name="vehicle_ownership">Vehicle Transfer Ownership</string>
+    <string name="traffic_fine_collection">Traffic Fine Collection</string>
+    <string name="cnic">CNIC</string>
+    <string name="todo">TODO</string>
+    <string name="Driving_Licence">Driving Licence</string>
+    <string name="instructions">Instructions</string>
+    <string name="documents">Documents</string>
+    <string name="apply_form">Apply Form</string>
+    <string name="instruction">INSTRUCTIONS:</string>
+    <string name="cnic_categories">.1  Service Fee/Service charges /
+        fee vary depending upon the type / category of CNIC.
+</string>
+    <string name="delivery_days">.2  Delivery Time Service delivery time depends upon the service category; 1. Normal = 45 Days (Maximum)
+        2. Urgent = 30 Days (Maximum)	3. Executive = 12 Days (Maximum)</string>
+    <string name="issuance_authority">.3  Issuance Authority CNIC will be issued by the NADRA.
+</string>
+    <string name="fee_pay">.4  Fee Payment Mode Fee payment mode is cash only and will be collected at 	NADRA counters.</string>
+    <string name="types">Type -> Category: Normal--Urgent--Executive</string>
+    <string name="new_simple">New-> Simple Rs.(0, 1150, 2150)</string>
+    <string name="new_smart">New-> Smart Rs.(750, 1500, 2500)</string>
+    <string name="dup_simple">Duplicate-> Simple Rs.(400, 1150, 2150)</string>
+    <string name="dup_smart">Duplicate-> Smart Rs.(750, 1500, 2500)</string>
+    <string name="renewal_simple">Renewal-> Simple Rs.(400, 1150, 2150)</string>
+    <string name="renewal_smart">Renewal-> Smart Rs.(750, 1500, 2500)</string>
+    <string name="mod_simple">Modification-> Simple Rs.(400, 1150, 2150)</string>
+    <string name="mod_smart">Modification-> Smart Rs.(750, 1500, 2500)</string>
+    <string name="birth_documents">Required Documents:</string>
+    <string name="b_instructions">INSTRUCTIONS:\n</string>
+    <string name="b_pg">•	1	Service Fee Computerized Certificate Issuance Fee is Rs. 100\n\n
+•	2	Delivery Time For Copy Service Time at institute for Delivery of Copy within 60 days of birth 3 working days and in case of delay registration 61st to 7 years 7 working days.\n\n
+•	3	Delivery Time For Original Certificate Service Time for Delivery of Original Certificate through Post within 60 Days of Birth 7 working days and incase of delay registration 61st-7 years 11 working days.\n\n
+•	4	Issuance Authority This service will be issued by Secretary Union Council for birth within 60 days or Administrator / Nazim UC incase of delayed registration from 61st day to 7 years.\n\n
+•	5	Fee Payment Mode Payment should be Cash and in Pakistan Rupees (PKR).\n\n
+•	6	Designated Bank (Adjacent to institute)\n
+</string>
+    <string name="mar_instructions">INSTRUCTIONS:\n</string>
+    <string name="mar_pg">•	1	Service Fee You have to pay 100.00 Rs only as service charges.\n\n
+•	2	Delivery Time For Copy Service Time at institute for Delivery of Copy within 3 working days.\n\n
+•	3	Delivery Time For Original Certificate Service Time for Delivery of Original Certificate through Post within 6 working days.\n\n
+•	4	Issuance Authority This service will issue by your Secretary Union council.\n\n
+•	5	Fee Payment Mode Payment should be Cash and in Pakistan Rupees (PKR).\n\n
+•	6	Designated Bank (Adjacent to INSTITUTE).\n
+</string>
+    <string name="dvr_instructions">INSTRUCTIONS:\n</string>
+    <string name="dvr_pg">•	1	Service Fee You have to pay 100.00 Rs only as service charges.\n\n
+•	2	Delivery Time For Copy Service Time at institute for Delivery of Copy
+ within 3 working days.\n\n
+•	3	Delivery Time For Original Certificate Service Time at institute for Delivery of Original Certificate within 6 working days.\n\n
+•	4	Issuance Authority This service will issue by your Relevant Union council.\n\n
+•	5	Fee Payment Mode Payment should be Cash and in Pakistan Rupees (PKR).\n\n
+•	6	Designated Bank(Adjacent to institute).\n
+</string>
+    <string name="domi_instructions">INSTRUCTIONS:\n</string>
+    <string name="domi_pg">•	1	Service Fee You have to pay 200.00 Rs only as service charges.\n\n
+•	2	Delivery Time Your certificate will be deliver within 3weeks working days.\n\n
+•	3	Issuance Authority This service will issue by your Relevant AC.\n\n
+•	4	Fee Payment Mode Payment should be Cash and in Pakistan Rupees (PKR).\n\n
+•	5	Designated Bank (Adjacent to institute).\n
+</string>
+    <string name="deathcer_instructions">INSTRUCTIONS:\n</string>
+    <string name="deathcer_pg">•	1	Service Fee Certificate Issuance Fee Rs.100.\n\n
+•	2	Delivery Time For Copy Service Time At institute for Delivery of Copy within 3 working days.\n\n
+•	3	Delivery Time For Original Certificate Service Time for Delivery of Original Certificate through Post within 6 working days.\n\n
+•	4	Issuance Authority This service will issue by your Secretary Union Council.\n\n
+•	5	Incase of Late registration 61 days onward All such cases shall be applied through court.\n\n
+•	6	Fee Payment Mode Payment should be Cash and in Pakistan Rupees (PKR).\n\n
+7	Designated Bank (Adjacent to institute).\n
+</string>
+    <string name="police_instructions">INSRUCTIONS:\n</string>
+    <string name="police_pg">•	1	Service Fee Service fee is PKR 150/-.\n\n
+•	2	Delivery Time Your certificate will be delivered within a week working days.\n\n
+•	3	Issuance Authority This service will be issued by your Relevant Punjab Police.\n\n
+•	4	Fee Payment Mode Payment should be Cash and in Pakistan Rupees (PKR).\n
+</string>
+    <string name="charctr_instructions">INSTRUCTIONS:\n</string>
+    <string name="charctr_pg">•	1	Service Fee No service charges.\n\n
+•	2	Delivery Time Your certificate will be delivered within week working days.\n\n
+•	3	Issuance Authority This service will be issued by your Relevant DPO/CPO.\n\n
+•	4	Fee Payment Mode N/A.\n\n
+•	5	Designated Bank N/A.\n
+</string>
+    <string name="drive_instructions">INSTRUCTIONS:\n</string>
+    <string name="vehReg_instructions">INSTRUCTIONS:\n</string>
+    <string name="vehOwn_instructions">INSTRUCTIONS:\n</string>
+    <string name="venOwn_pg">•	1	Service Fee You service charges depends on your vehicle type.\n\n
+•	2	Delivery Time Your certificate will be deliver within 7 Working Days.\n\n
+•	3	Issuance Authority This service will issue by Excise and Taxation officer.\n\n
+•	4	Fee Payment Mode Payment should be Cash and in Pakistan Rupees (PKR).\n\n
+•	5	Designated Bank(Adjacent to CFSC).\n
+</string>
+    <string name="vehReg_pg">•	1	Service Fee You service charges depends on your vehicle type.\n\n
+•	2	Delivery Time Your certificate will be deliver with in 30 minutes.\n\n
+•	3	Issuance Authority This service will issue by Excise and Taxation officer.\n\n
+•	4	Fee Payment Mode Payment should be Cash and in Pakistan Rupees (PKR).\n\n
+•	5	Designated Bank(Adjacent to CFSC).\n
+</string>
+    <string name="drive_pg">•	1	Service Fee You have to pay 60.00 Rs per category as service charges.\n\n
+•	2	Delivery Time Your certificate will be deliver on the spot.\n\n
+•	3	Issuance Authority This service will issue by City Traffic Police officer.\n\n
+•	4	Age Limit Motor Cycle / Motor Car: 18 Ys LTV (Rikshaw, Taxi, Tractor Commercial): 21 Ys HTV: 22 Ys + 3 Ys Experience.\n\n
+•	5	Validity6 months.\n\n
+•	6	Fee Payment Mode Fee payment mode will be Postal stamps only.\n\n
+•	7	Designated Bank (Adjacent to CFSC).\n
+</string>
+    <string name="token_instructions">"INSTRUCTIONS:\n"</string>
+    <string name="token_pg">•	1   	 Service Fee You service charges depends on your vehicle type.\n\n
+•	2   	Delivery Time Your certificate will be deliver on the spot.\n\n
+•	3	Issuance Authority This service will issue by Excise and Taxation officer.\n\n
+•	4	Fee Payment Mode Payment should be Cash and in Pakistan Rupees (PKR).\n\n
+•	5	Designated Bank (Adjacent to Institute).\n
+</string>
+    <string name="traffic_fine_instructions">INSTRUCTIONS:\n</string>
+    <string name="trafficfine_pg">•	1	Service Fee Depend on the fine.\n\n
+•	2	Designated Bank  (Adjacent to institute).\n\n
+</string>
+    <string name="utility_instructions">INSTRUCTIONS:\n</string>
+    <string name="utility_pg">•	1	Service Fee The departmental fee for the Installation of water and sewerage connection varies from case to case.\n\n
+•	2	Delivery Time Service delivery time is 10 working days.\n\n
+•	3	Issuance Authority PIEDMC issues water and sewerage connection.\n\n
+•	4	Fee Payment Mode Payment should be bank draft, check or cash and in Pakistan Rupees (PKR).\n\n
+•	5	Designated Bank.\n\n
+</string>
+    <string name="applicant_name">Enter full Name</string>
+    <string name="father_name">Father Name</string>
+    <string name="guardian_name">Guardian Name</string>
+    <string name="guardian_cnic">Guardian CNIC</string>
+    <string name="email">Email</string>
+    <string name="city_name">City Name</string>
+    <string name="district_name">District Name</string>
+    <string name="cnic_submit">SUBMIT</string>
+    <string name="birth_submit">SUBMIT</string>
+    <string name="domicile_submit">SUBMIT</string>
+    <string name="death_submit">SUBMIT</string>
+    <string name="distt_name">District Name</string>
+    <string name="husband_name">Husband Full Name</string>
+    <string name="wife_name">Wife Full Name</string>
+    <string name="husband_cnic">Husband CNIC</string>
+    <string name="wife_cnic">Wife CNIC</string>
+    <string name="contact_number">Contact no.</string>
+    <string name="cover_text">Lifespen Facilitation Application for Citizens of PAKISTAN</string>
+</resources>

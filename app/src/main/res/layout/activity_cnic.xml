@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doc_bg"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".cnic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instruction"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2sp"
+            android:text="@string/cnic_categories"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/types"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_simple"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="242dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_smart"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="267dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dup_simple"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="292dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dup_smart"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="318dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/renewal_simple"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/renewal_smart"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="366dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mod_simple"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="390dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mod_smart"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="412dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/delivery_days"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="310dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/issuance_authority"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="535dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/fee_pay"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="582dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/birth_documents"
+            android:textAllCaps="false"
+            android:textColor="#090909"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="88dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/cnc_doc"
+            android:contentDescription="@string/todo"
+            android:padding="30dp">
+        </ImageView>
+
+        <Button
+            android:id="@+id/cnic_form"
+            android:layout_width="106dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded"
+            android:text="@string/apply_form"
+            android:textColor="#ffffff"
+            android:textStyle="bold">
+
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>
