@@ -24,6 +24,7 @@
         android:textColorHint="@color/white">
 
         <EditText
+            android:id="@+id/cnic_apply_fullName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/applicant_name"
@@ -33,6 +34,7 @@
             android:textSize="15sp"
             />
     </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,6 +45,7 @@
         >
 
         <EditText
+            android:id="@+id/cnic_apply_guardainName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/guardian_name"
@@ -62,6 +65,7 @@
         >
 
         <EditText
+            android:id="@+id/cnic_apply_cnic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/guardian_cnic"
@@ -81,6 +85,7 @@
         >
 
         <EditText
+            android:id="@+id/cnic_apply_contactNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Contact Number"
@@ -100,6 +105,7 @@
         >
 
         <EditText
+            android:id="@+id/cnic_apply_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/email"
@@ -120,6 +126,7 @@
         >
 
         <EditText
+            android:id="@+id/cnic_apply_cityName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -138,6 +145,7 @@
         android:textColorHint="@color/white">
 
         <EditText
+            android:id="@+id/cnic_apply_distric_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/distt_name"
@@ -151,6 +159,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -159,7 +168,9 @@
             android:textSize="15sp">
 
         </TextView>
+
         <RadioButton
+            android:id="@+id/cnic_apply_gender_radio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/male"
@@ -169,6 +180,7 @@
         </RadioButton>
 
         <RadioButton
+            android:id="@+id/cnic_apply_gender_radio_f"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"

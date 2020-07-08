@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.room.Room;
 
+import android.content.SharedPreferences;
 import android.util.Log;
 import android.widget.Button;
 import android.content.Intent;
@@ -14,6 +15,7 @@ import android.widget.Toast;
 
 import com.example.pser.RoomDB.Model.User;
 import com.example.pser.RoomDB.Repository.UserRepository;
+import com.google.gson.Gson;
 
 import java.util.List;
 
@@ -35,9 +37,6 @@ public class LoginForm extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-//                User User = new User(text_user_email.getText().toString() , text_user_password.getText().toString());
-
                 UserRepository repository = new UserRepository(LoginForm.this);
                 repository.searchUser(text_user_email.getText().toString(), text_user_password.getText().toString()).observe(LoginForm.this, new Observer<User>() {
                     @Override
@@ -45,16 +44,16 @@ public class LoginForm extends AppCompatActivity {
                         if (user == null) {
                             Log.e("test", "user not register or invalid credentials");
                             Toast.makeText(LoginForm.this, "Invalid user Email and Password", Toast.LENGTH_SHORT).show();
-
                         } else {
                             Log.e("test", "user register and credentials matched");
                             Intent int1 = new Intent(LoginForm.this, MainActivity.class);
                             startActivity(int1);
+                            SharedPreferences.Editor editor = getSharedPreferences("App", MODE_PRIVATE).edit();
+                            editor.putString("user", new Gson().toJson(user));
+                            editor.apply();
                         }
                     }
                 });
-
-
             }
         });
         registration = (Button) findViewById(R.id.registration_button);

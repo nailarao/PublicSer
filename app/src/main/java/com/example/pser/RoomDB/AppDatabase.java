@@ -7,13 +7,14 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
 import com.example.pser.RoomDB.Interfaces.DaoAccess;
+import com.example.pser.RoomDB.Model.CnicTable;
 import com.example.pser.RoomDB.Model.User;
 
 //import com.example.pser.RoomDB.Model.Faqs;
 //import com.example.pser.RoomDB.Model.Favourites;
 //import com.example.pser.RoomDB.Model.Instructions;
 
-@Database(entities = {User.class, }, version = 1, exportSchema = false)
+@Database(entities = {User.class, CnicTable.class}, version = 1, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 
     private static AppDatabase INSTANCE;

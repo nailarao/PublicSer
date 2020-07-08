@@ -7,6 +7,7 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
+import com.example.pser.RoomDB.Model.CnicTable;
 import com.example.pser.RoomDB.Model.User;
 
 import java.util.List;
@@ -41,30 +42,30 @@ public interface DaoAccess {
     @Delete
     void deleteUser(User user);
 
-//    /*
-//     * Categoires CRUD
-//     */
-//
-//    @Insert
-//    Long insertCategory(Login user);
-//
-//
-//    @Query("SELECT * FROM Login")
-//    LiveData<List<Login>> fetchAllCategories();
-//
-//
-//    @Query("SELECT * FROM Login WHERE id =:catId")
-//    LiveData<Login> getCategoires(int catId);
-//
-//
-//    @Update
-//    void updateCategory(Login user);
-//
-//
-//    @Delete
-//    void deleteCategory(Login user);
-//
-//
+    /*
+     * Cnic CRUD
+     */
+
+    @Insert
+    Long insertCnic(CnicTable note);
+
+    @Query("SELECT * FROM CnicTable")
+    LiveData<List<CnicTable>> fetchAllCnic();
+
+    @Query("SELECT * FROM CnicTable WHERE id =:instId")
+    LiveData<CnicTable> getCnicById(int instId);
+
+    @Query("SELECT * FROM CnicTable WHERE user_id =:userId")
+    LiveData<CnicTable> getCnic(String userId);
+
+    @Update
+    void updateCnic(CnicTable cnic);
+
+    @Delete
+    void deleteCnic(CnicTable cnic);
+
+
+
 //    /*
 //     * Favourites CRUD
 //     */
